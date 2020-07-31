@@ -1,6 +1,7 @@
 # UI-Challenge
 
-Run `gradlew bootRun` at the root directory and go to localhost:8080/ to see SpringBoot in action
+Run `gradlew bootRun` at the root directory and go to localhost:8080/hello to see SpringBoot in action.
+You can add `?name=xyz` at the end of the url to change 'world' to any string!
 
 In the home/ directory run `ng serve --open` to see the Angular page and the Hello World task.
 
