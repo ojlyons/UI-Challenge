@@ -1,5 +1,9 @@
 # UI-Challenge
 
+Run `gradlew bootRun` at the root directory and go to localhost:8080/ to see SpringBoot in action
+
+In the home/ directory run `ng serve --open` to see the Angular page and the Hello World task.
+
 ## Required (3/3)
 
 - [X] Create a new Gradle project
@@ -7,7 +11,7 @@
     - [X] Run the Spring Boot server on port 80
 - [X] Create a landing page for the server using Angular 7.x.x (8 is ok) and Angular Material 7.x.x. This page will serve as the home for all optional challenges.
 
-## Optional (0/3)
+## Optional (1/3)
 
 - [X] Hello World
     - [X] User input field
