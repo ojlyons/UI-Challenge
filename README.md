@@ -9,10 +9,10 @@
 
 ## Optional (0/3)
 
-- [ ] Hello World
-    - [ ] User input field
-    - [ ] "Hello {NAME}" label somewhere
-    - [ ] The label dynamically updates with the user's input
+- [X] Hello World
+    - [X] User input field
+    - [X] "Hello {NAME}" label somewhere
+    - [X] The label dynamically updates with the user's input
 - [ ] GET
 - [ ] POST
 - [ ] Material

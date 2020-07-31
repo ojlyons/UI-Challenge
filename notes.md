@@ -33,3 +33,26 @@ you can edit source files while it's running and serve will rebuild as needed
 source files are in src/app/
 
 application-wide styles go in styles.css, where page-specific ones go in app.componnet.css
+
+`ng generate component helloworld` to make a new component
+
+[(ngModel)] is Angular's two-way data binding syntax.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
