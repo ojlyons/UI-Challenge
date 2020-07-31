@@ -9,7 +9,7 @@ import {User} from '../user';
 export class HelloworldComponent implements OnInit {
 
   user: User = {
-    name: 'World'
+    name: 'World' //user's name is World by default
   };
 
   constructor() { }

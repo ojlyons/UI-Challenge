@@ -1,9 +1,9 @@
-<p>
-  Hello {{user.name}}...
-</p>
-
 <div>
-  <label>name:
-    <input [(ngModel)]="user.name" placeholder="World"/>
+  <label>Choose a name:
+    <input [(ngModel)]="user.name" placeholder="World"/> <!-- ngModel connects the text field and the input box so changing the input immediately updates the field-->
   </label>
 </div>
+
+<p>
+  Hello, {{user.name}}!
+</p>

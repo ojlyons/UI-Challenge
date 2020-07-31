@@ -1,3 +1,7 @@
+/*
+The main file for Spring Boot logic
+ */
+
 
 package com.challenge.spring;
 import org.springframework.boot.SpringApplication;
@@ -15,6 +19,7 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 	}
 
+	// At localhost:8080/hello, it will print Hello World (unless ?name= specifies something else)
 	@GetMapping("/hello")
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
 		return String.format("Hello %s!", name);
